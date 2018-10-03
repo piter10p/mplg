@@ -1,0 +1,4 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Language Assumption}{2}
+\contentsline {section}{\numberline {1.2}Language Goals}{2}
+\contentsline {section}{\numberline {1.3}What the language was not designed for}{2}
