@@ -3,6 +3,24 @@
 \author{Piotr Paszko}
 \date{2018}
 
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+
+\lstdefinelanguage{MPLG}
+{
+  morekeywords={input, output, procedure, return}
+}
+
+\lstset
+{
+language=MPLG,
+keywordstyle=\color{blue},
+numbers=left,
+numberstyle=\tiny\color{mygray},
+} 
+
 \begin{document}
 
 \maketitle
@@ -34,4 +52,56 @@ MPLG was not designed to:
   \item Creating software (the language does not have to provide API interacting with system, computer components etc.).
   \item Creating big and complex systems (language syntax was designed only for calculations, it's not providing testing systems, OOP etc.).
 \end{enumerate}
+
+\chapter{Language Syntax}
+\section{Introduction}
+Math Programming Language has a syntax similar to Python. Code blocks are defined by 
+indentations and ":" character. Conditional instructions does not uses "()" characters etc. Language is designed to be most human friendly and clean as possible.
+
+\section{Code formatting}
+\subsection{Operations endings}
+In MPLG every operation has to be ended with a new line character. Writing multiple operations in a single line will affect inability to interpret operation properly.
+
+Example of properly writed code:
+\begin{lstlisting}
+x = 3/4
+d = 5
+output c = x + d
+\end{lstlisting}
+
+\subsection{Code blocks}
+In MPLG code blocks are started by a keyword with ":" character, and keeps until code indentations are bigger by 1 tabulation from a starting keyword indentation.
+
+Example of properly writed code:
+\begin{lstlisting}
+procedure sum a b:
+	result = a + b
+	return result
+
+output c = sum 2 5
+\end{lstlisting}
+
+\section{Variables}
+Variables in MPLG have a little bit different meaning than in standard programming languages. Every variable in MPLG is a set of real numbers (similar to arrays) encoded as fractions (each number consists of a dividend and divisible). Every number should be infinite in theory (that's impossible of course. But implementation need to allocate memory dynamically, according do number size). Every set can be also presented as multiple intervals. E.g variable can have value: $x = \{\frac{1}{2}, 20\} \cup (101, 220)$.
+
+\subsection{Declaring Variable}
+Variables are declared by writing name (name can not start by number and can not be same as any keyword) and assigning value. E.g:
+\begin{lstlisting}
+x = 12
+\end{lstlisting}
+Variable can also be preceded by a "input" keyword (but only at same line where variables has been declared), what means that a variable is getting value from user input before code execution.
+\begin{lstlisting}
+input x = 3/4
+\end{lstlisting}
+
+\section{Calculations}
+\subsection{Numbers presentation}
+Numbers in MPLG are rational numbers. That mean they're computed as a classical, mathematical fractions. It is possible to do calculations like $\frac{1}{2} + \frac{3}{4}$ and get result equal to $\frac{5}{4}$. Every number has dividend and divisible with implementation hidden from user inside interpreter. Every operations like 
+bringing to the common denominator etc. are doing automatically, without user.
+
+That means, this code:
+\begin{lstlisting}
+x = 3/4 + 1/2
+\end{lstlisting}
+Will assign $\frac{5}{4}$ to "x" variable.
 \end{document}

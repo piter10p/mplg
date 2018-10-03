@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.2)  3 OCT 2018 08:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.2)  3 OCT 2018 18:33
 entering extended mode
 **"./mplg documentation.tex"
 ("mplg documentation.tex"
@@ -24,31 +24,95 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("mplg documentation.aux")
+)
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
+ngs.sty"
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen103
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen106
+
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmi
+sc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listi
+ngs.cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color
+.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
+olor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
+dftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)) ("mplg documentation.aux")
 \openout1 = `"mplg documentation.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+\c@lstlisting=\count97
+
+("C:\Users\Piotrasss\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen107
+\scratchbox=\box28
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen108
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks17
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <6> on input line 26.
  [1
 
-{C:/Users/Piotrasss/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] ("m
-plg documentation.toc"
+{C:/Users/Piotrasss/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1] ("mplg documentation.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -63,25 +127,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [2
 
-] ("mplg documentation.aux") ) 
+]
+Chapter 2.
+[3
+
+] [4] ("mplg documentation.aux") ) 
 Here is how much of TeX's memory you used:
- 258 strings out of 492973
- 3183 string characters out of 3124920
- 62056 words of memory out of 3000000
- 4201 multiletter control sequences out of 15000+200000
- 8800 words of font info for 31 fonts, out of 3000000 for 9000
+ 2412 strings out of 492973
+ 32020 string characters out of 3124920
+ 94169 words of memory out of 3000000
+ 6324 multiletter control sequences out of 15000+200000
+ 9107 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,392b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Piotrasss/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Piotr
-asss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb>
-Output written on "mplg documentation.pdf" (4 pages, 68726 bytes).
+ 26i,6n,40p,546b,1017s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Piotrasss/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Piotrasss/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/P
+iotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Piotrasss/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Piotrasss/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/
+Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/Piotrasss/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on "mplg documentation.pdf" (6 pages, 111668 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
